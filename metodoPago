@@ -1,0 +1,8 @@
+<h1> METODO DE PAGO </h1>
+<p> CASH     //    TARJETA  </p>
+
+<input [(ngModel)]="metodo" type="text">
+
+<img *ngIf="metodo === 'efectivo'" src="https://cdn.dopl3r.com/memes_files/las-nuevas-formas-de-pagar-el-iphone-kZbLJ.jpg">
+
+<img *ngIf="metodo === 'tarjeta'" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Three_credit_cards-_Visa%2C_Mastercard_and_American_Express_%28close-up_on_logos%29.jpg/280px-Three_credit_cards-_Visa%2C_Mastercard_and_American_Express_%28close-up_on_logos%29.jpg">
